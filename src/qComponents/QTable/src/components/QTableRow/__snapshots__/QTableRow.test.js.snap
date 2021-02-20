@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QTableRow QTableRow should match snapshot 1`] = `
+<tr
+  class=""
+>
+  <td
+    class="q-table__cell q-table__cell_selectable"
+  >
+    <!---->
+     
+    <q-checkbox-stub
+      label=""
+      name=""
+      roottag="label"
+    />
+  </td>
+   
+  <td
+    align="left"
+    class="q-table__cell"
+  >
+    <!---->
+      
+    <!---->
+  </td>
+  <td
+    align="left"
+    class="q-table__cell"
+  >
+    <!---->
+      
+    <!---->
+  </td>
+  <td
+    align="left"
+    class="q-table__cell"
+  >
+    <!---->
+      
+    <!---->
+  </td>
+</tr>
+`;

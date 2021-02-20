@@ -1,6 +1,6 @@
 import QTable from './src/QTable.vue';
 
-QTable.install = function(Vue) {
+QTable.install = Vue => {
   Vue.component(QTable.name, QTable);
 };
 
