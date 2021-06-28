@@ -1,13 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`QInputNumber data should match snapshot 1`] = `
-Object {
-  "number": null,
-  "prevNumber": null,
-  "userNumber": null,
-}
-`;
-
 exports[`QInputNumber should match snapshot 1`] = `
 <div
   class="q-input-number q-input-number_with-controls"
@@ -22,7 +14,7 @@ exports[`QInputNumber should match snapshot 1`] = `
     label=""
     suffixicon=""
     tabindex=""
-    type="number"
+    type="text"
     value=""
   />
    
@@ -44,7 +36,7 @@ exports[`QInputNumber should match snapshot without controls 1`] = `
     label=""
     suffixicon=""
     tabindex=""
-    type="number"
+    type="text"
     value=""
   />
    
