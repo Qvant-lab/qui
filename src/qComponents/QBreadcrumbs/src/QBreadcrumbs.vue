@@ -1,7 +1,8 @@
 <template>
   <div class="q-breadcrumbs">
     <template v-for="crumb in breadcrumbs">
-      <router-link
+      <component
+        :is="linkComponent || 'router-link'"
         :key="crumb.name || crumb.path"
         :to="pushTo(crumb)"
         active-class="q-breadcrumbs__crumb_active"
@@ -9,7 +10,7 @@
         class="q-breadcrumbs__crumb"
       >
         {{ crumb.meta.breadcrumb }}
-      </router-link>
+      </component>
 
       <span
         :key="`${crumb.name || crumb.path}divider`"
@@ -32,6 +33,13 @@ export default {
    * if you have vue router, QBreadcrumbs will get crumbs from this.$route.matched
    */
   props: {
+    /**
+     * component name for link
+     */
+    linkComponent: {
+      type: String,
+      default: null
+    },
     /**
      * custom last crumb
      */
