@@ -26,6 +26,7 @@ import QInput from './QInput';
 import QInputNumber from './QInputNumber';
 import QPagination from './QPagination';
 import QPopover from './QPopover';
+import QRangeSelector from './QRangeSelector';
 import QScrollbar from './QScrollbar';
 import QSelect from './QSelect';
 import QOption from './QOption';
@@ -66,6 +67,7 @@ const Components = {
   QPopover,
   QRadio,
   QRadioGroup,
+  QRangeSelector,
   QRow,
   QScrollbar,
   QSelect,
@@ -200,6 +202,7 @@ export {
   QPopover,
   QRadio,
   QRadioGroup,
+  QRangeSelector,
   QRow,
   QScrollbar,
   QSelect,
